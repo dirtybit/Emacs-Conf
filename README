@@ -1,0 +1,21 @@
+Suggested usage:
+
+Install followings packages
+      pyflakes
+      python-mode
+      python-ropemacs
+
+Create a new folder in your home directory
+      $ mkdir ~/emacs.rc
+
+Clone git repository into this directory
+      $ cd ~/emacs.rc
+      $ git clone git://github.com/dirtybit/Emacs-Conf.git
+
+Copy pycomplete.py into PYTHONPATH
+      $ cp ~/emacs.rc/Emacs-Conf/emacs.d/pycomplete.py $PYTHONPATH/
+
+Link necessary files
+      $ cd
+      $ ln -s ~/emacs.rc/Emacs-Conf/emacs.d .emacs.d
+      $ ln -s ~/emacs.rc/Emacs-Conf/dot-emacs .emacs
