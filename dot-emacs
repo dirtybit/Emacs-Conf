@@ -63,12 +63,20 @@
  temp-file
  (file-name-directory buffer-file-name))))
  (list "pyflakes" (list local-file))))
+<<<<<<< HEAD
  (add-to-list 'flymake-allowed-file-name-masks
  '("\\.py\\'" flymake-pyflakes-init)))
 (add-hook 'find-file-hook 'flymake-find-file-hook)
 
 ;;; rfringe display flake errors through pop-up
 (require 'rfringe)
+=======
+ 
+ (add-to-list 'flymake-allowed-file-name-masks
+ '("\\.py\\'" flymake-pyflakes-init)))
+ 
+(add-hook 'find-file-hook 'flymake-find-file-hook)
+>>>>>>> 27eb4bf0501c19863239c24c0c12521afd2826e7
 
 ;;' YASnippet
 (add-to-list 'load-path "~/.emacs.d/yasnippet-0.6.1c")
