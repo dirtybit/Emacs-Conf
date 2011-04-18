@@ -69,7 +69,6 @@
 
 ;;; rfringe display flake errors through pop-up
 (require 'rfringe)
-=======
  
  (add-to-list 'flymake-allowed-file-name-masks
  '("\\.py\\'" flymake-pyflakes-init)))
