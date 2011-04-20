@@ -67,8 +67,14 @@
  '("\\.py\\'" flymake-pyflakes-init)))
 (add-hook 'find-file-hook 'flymake-find-file-hook)
 
-;;; rfringe display flake errors through pop-up
-(require 'rfringe)
+;; flymake show errors
+(defun my-flymake-show-next-error()
+  (interactive)
+  (flymake-goto-next-error)
+  (flymake-display-err-menu-for-current-line)
+  )
+(global-set-key "\C-c\C-e" 'my-flymake-show-next-error)
+
 
 ;;' YASnippet
 (add-to-list 'load-path "~/.emacs.d/yasnippet-0.6.1c")
