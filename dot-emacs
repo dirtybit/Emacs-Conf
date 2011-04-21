@@ -12,6 +12,9 @@
 ;;; Copy line shorcut
 (global-set-key "\C-c\C-k" "\C-a\C- \C-n\M-w")
 
+;;; Show python help at point
+(global-set-key (kbd "C-c C-a") (kbd "<f1>"))
+
 ;;; Settings
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
