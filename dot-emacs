@@ -1,5 +1,11 @@
 (add-to-list 'load-path "~/.emacs.d")
 
+;;; disable backup
+(setq backup-inhibited t)
+
+;;; disable auto save
+(setq auto-save-default nil)
+
 ;;; Column indicator at mode-line area
 (column-number-mode 1)
 
