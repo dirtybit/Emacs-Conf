@@ -7,6 +7,8 @@
 ;;; Keybindings
 (load-library "keybindings.el")
 
+;;; Cscope support
+(require 'xcscope)
 
 
 ;;; Default C style
