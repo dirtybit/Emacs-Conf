@@ -1,8 +1,8 @@
 (add-to-list 'load-path "~/.emacs.d")
 
-;;; Additional configurations
-;;; Python configurations
-;;; (load-library "python_conf.el")
+;;; Emacs for Python
+(load-file "~/.emacs.d/emacs-for-python/epy-init.el")
+(load-file "~/.emacs.d/epy-conf.el")
 
 ;;; Keybindings
 (load-library "keybindings.el")
