@@ -13,6 +13,8 @@
 ;;; Cscope support
 (require 'xcscope)
 
+;;; w3m support
+(require 'w3m)
 
 ;;; Default C style
 (setq c-default-style "linux")

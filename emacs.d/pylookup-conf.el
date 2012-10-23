@@ -20,3 +20,4 @@
   "Run pylookup-update and create the database at `pylookup-db-file'." t)
 
 (global-set-key "\C-ch" 'pylookup-lookup)
+(setq browse-url-browser-function 'w3m-browse-url)
