@@ -4,6 +4,9 @@
 (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
 (load-file "~/.emacs.d/epy-conf.el")
 
+;;; Pylookup (Python doc browser)
+(load-file "~/.emacs.d/pylookup-conf.el")
+
 ;;; Keybindings
 (load-library "keybindings.el")
 
