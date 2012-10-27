@@ -1,5 +1,10 @@
 (add-to-list 'load-path "~/.emacs.d")
 
+;;; Magit
+(add-to-list 'load-path "~/.emacs.d/magit")
+(require 'magit)
+(global-set-key "\C-xg" 'magit-status)
+
 ;;; Emacs for Python
 (load-file "~/.emacs.d/emacs-for-python/epy-init.el")
 (load-file "~/.emacs.d/epy-conf.el")
